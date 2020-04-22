@@ -13,7 +13,7 @@ The treebank currently consists of 94 sentences (1011 tokens) of  educational te
 Annotations were created by Angelina Aquino under the guidance of Dr. Franz de Leon (UP Electrical and Electronics Engineering Institute) and Dr. Mary Ann Bacolod (UP Department of Linguisitcs). 
 
 
-## References
+# References
 
 * Malicsi, J. C. (2013). *Gramar ng Filipino.* Quezon City: Sentro ng Wikang Filipino, Unibersidad ng Pilipinas-Diliman.
 * Almario, V. (2001). *UP Diksiyonaryong Filipino.* Quezon City: Sentro ng Wikang Filipino, Unibersidad ng Pilipinas-Diliman.
