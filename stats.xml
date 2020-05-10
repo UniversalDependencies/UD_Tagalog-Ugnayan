@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>94</sentences><tokens>1011</tokens><words>1097</words><fused>86</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>94</sentences><tokens>1011</tokens><words>1097</words><fused>86</fused></test>
+  </size>
+  <lemmas unique="279" /><!-- na, ., sa, ang, ng, siya, ito, at, !, mga, ,, may, tubig, ", isa -->
+  <forms unique="323" /><!-- -ng, ., sa, ang, ng, na, niya, !, ito, at, mga, ,, may, tubig, " -->
+  <fusions unique="49" /><!-- maraming, isang, niyang, ilang, ibang, kakaibang, koryenteng, akong, aleng, dalang, kaniyang, lawang, pang, pinakamahabang, siyang -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">65</tag><!-- iba, kakaiba, mahaba, mainit, malaki, malapit, marami, hot, makulay, maliit -->
+    <tag name="ADP">186</tag><!-- sa, ang, ng, mula, ni, dahil, kay, si, bilang, bukod -->
+    <tag name="ADV">48</tag><!-- din, na, pa, talaga, naman, ang, bigla, daan, dapat, daw -->
+    <tag name="CCONJ">23</tag><!-- at, pero -->
+    <tag name="DET">28</tag><!-- mga, marami, ilan, bawat -->
+    <tag name="INTJ">3</tag><!-- wow, sige -->
+    <tag name="NOUN">198</tag><!-- tubig, anyo, lawa, bulkan, bukal, bulaklak, koryente, lobo, lupa, pasahero -->
+    <tag name="NUM">15</tag><!-- isa, apat, daan, lima -->
+    <tag name="PART">133</tag><!-- na, ay, ba, hindi, po, e, nang, ng -->
+    <tag name="PRON">94</tag><!-- siya, ito, ako, ikaw, kami, sila, ano, tayo, kayo, ko -->
+    <tag name="PROPN">42</tag><!-- Pilipinas, Tatay, Taal, Cagayan, Cristina, Maria, Tiwi, Batangas, Iligan, Isabela -->
+    <tag name="PUNCT">142</tag><!-- ., !, ,, ", -, ? -->
+    <tag name="SCONJ">10</tag><!-- dahil, kung, bago, kasi, nang, para, sabay, tuwi -->
+    <tag name="VERB">110</tag><!-- may, alam, labas, ngiti, sabi, amoy, kita, tagpo, tingin, akyat -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="24">
+    <dep name="acl">22</dep>
+    <dep name="advcl">11</dep>
+    <dep name="advmod">48</dep>
+    <dep name="amod">43</dep>
+    <dep name="case">177</dep>
+    <dep name="cc">22</dep>
+    <dep name="ccomp">2</dep>
+    <dep name="compound">20</dep>
+    <dep name="conj">21</dep>
+    <dep name="det">25</dep>
+    <dep name="discourse">4</dep>
+    <dep name="fixed">14</dep>
+    <dep name="flat">6</dep>
+    <dep name="mark">134</dep>
+    <dep name="nmod">91</dep>
+    <dep name="nsubj">91</dep>
+    <dep name="nummod">12</dep>
+    <dep name="obj">55</dep>
+    <dep name="obl">47</dep>
+    <dep name="parataxis">11</dep>
+    <dep name="punct">142</dep>
+    <dep name="root">94</dep>
+    <dep name="vocative">2</dep>
+    <dep name="xcomp">3</dep>
+  </deps>
+</treebank>
