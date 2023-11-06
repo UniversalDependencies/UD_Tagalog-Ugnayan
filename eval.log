@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Tagalog-Ugnayan:
-commit 9d53853dddf16b3794ec35c5f96904be2f3f082e
+commit 50c8a55cda543623ab3738962a6c086a03165b52
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 12:41:06 2022 +0100
+Date:   Tue May 9 12:24:07 2023 +0200
 Size: counted 1097 of 1097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.185158362586186.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,8 @@ Udapi: found 140 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1097 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tl --max-err=10 UD_Tagalog-Ugnayan/tl_ugnayan-ud-test.conllu
+[Line 1267 Sent deped-lrmds_11820_0077 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Dahil * sa'
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
