@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Tagalog-Ugnayan:
-commit 50c8a55cda543623ab3738962a6c086a03165b52
+commit 01241b2b7c087548867538cfe5aa45599108465b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 12:24:07 2023 +0200
+Date:   Mon Nov 6 13:08:36 2023 +0100
 Size: counted 1097 of 1097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.185158362586186.
 Size: maximum value 13.815511 is for 1000000 words or more.
