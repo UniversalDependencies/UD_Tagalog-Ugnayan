@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Tagalog-Ugnayan:
-commit 01241b2b7c087548867538cfe5aa45599108465b
+commit fd60f6c8381f473e51a66593fc4bc43fc71f534f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:08:36 2023 +0100
+Date:   Sun May 5 13:34:23 2024 +0200
 Size: counted 1097 of 1097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.185158362586186.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,16 @@ Udapi: found 140 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1097 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tl --max-err=10 UD_Tagalog-Ugnayan/tl_ugnayan-ud-test.conllu
+[Line 181 Sent deped-lrmds_11820_0011 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:marami:det --> 7:-ng:mark)
+[Line 465 Sent deped-lrmds_11820_0027 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:ilan:det --> 4:-ng:mark)
+[Line 689 Sent deped-lrmds_11820_0042 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:Marami:det --> 3:-ng:mark)
+[Line 734 Sent deped-lrmds_11820_0045 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:marami:det --> 10:-ng:mark)
+[Line 964 Sent deped-lrmds_11820_0059 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:ilan:det --> 15:-ng:mark)
+[Line 1007 Sent deped-lrmds_11820_0062 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Marami:det --> 2:-ng:mark)
+[Line 1166 Sent deped-lrmds_11820_0071 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
+[Line 1206 Sent deped-lrmds_11820_0073 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
 [Line 1267 Sent deped-lrmds_11820_0077 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Dahil * sa'
-Warnings: 1
+Warnings: 9
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
