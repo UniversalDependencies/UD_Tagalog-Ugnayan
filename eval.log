@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Tagalog-Ugnayan:
-commit fd60f6c8381f473e51a66593fc4bc43fc71f534f
+commit 3899b0b4eb805b5de68594a7931cb11d032a0d2c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:34:23 2024 +0200
+Date:   Mon Nov 11 16:44:02 2024 +0100
 Size: counted 1097 of 1097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.185158362586186.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,31 +20,46 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        140
-Udapi: found 140 bugs.
+               TOTAL        138
+Udapi: found 138 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1097 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tl --max-err=10 UD_Tagalog-Ugnayan/tl_ugnayan-ud-test.conllu
-[Line 181 Sent deped-lrmds_11820_0011 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:marami:det --> 7:-ng:mark)
-[Line 465 Sent deped-lrmds_11820_0027 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:ilan:det --> 4:-ng:mark)
-[Line 689 Sent deped-lrmds_11820_0042 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:Marami:det --> 3:-ng:mark)
-[Line 734 Sent deped-lrmds_11820_0045 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:marami:det --> 10:-ng:mark)
-[Line 964 Sent deped-lrmds_11820_0059 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:ilan:det --> 15:-ng:mark)
-[Line 1007 Sent deped-lrmds_11820_0062 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Marami:det --> 2:-ng:mark)
-[Line 1166 Sent deped-lrmds_11820_0071 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
-[Line 1206 Sent deped-lrmds_11820_0073 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
+[Line 89 Sent deped-lrmds_11820_0005 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'para sa' does not have the 'ExtPos' feature
+[Line 181 Sent deped-lrmds_11820_0011 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:marami:det --> 7:-ng:mark)
+[Line 348 Sent deped-lrmds_11820_0021 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'mula sa' does not have the 'ExtPos' feature
+[Line 465 Sent deped-lrmds_11820_0027 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:ilan:det --> 4:-ng:mark)
+[Line 604 Sent deped-lrmds_11820_0036 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'na lang' does not have the 'ExtPos' feature
+[Line 689 Sent deped-lrmds_11820_0042 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:Marami:det --> 3:-ng:mark)
+[Line 734 Sent deped-lrmds_11820_0045 Node 9]: [L3 Syntax leaf-det] 'det' not expected to have children (9:marami:det --> 10:-ng:mark)
+[Line 774 Sent deped-lrmds_11820_0048 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'dahil sa' does not have the 'ExtPos' feature
+[Line 953 Sent deped-lrmds_11820_0059 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'dahil sa' does not have the 'ExtPos' feature
+[Line 964 Sent deped-lrmds_11820_0059 Node 14]: [L3 Syntax leaf-det] 'det' not expected to have children (14:ilan:det --> 15:-ng:mark)
+[Line 1007 Sent deped-lrmds_11820_0062 Node 1]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Marami:det --> 2:-ng:mark)
+[Line 1029 Sent deped-lrmds_11820_0063 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'patungo sa' does not have the 'ExtPos' feature
+[Line 1055 Sent deped-lrmds_11820_0065 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Bukod sa' does not have the 'ExtPos' feature
+[Line 1166 Sent deped-lrmds_11820_0071 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
+[Line 1206 Sent deped-lrmds_11820_0073 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
+[Line 1209 Sent deped-lrmds_11820_0073 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'tulad ng' does not have the 'ExtPos' feature
+[Line 1209 Sent deped-lrmds_11820_0073 Node 11]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ' word 'tulad'
+[Line 1267 Sent deped-lrmds_11820_0077 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Dahil sa' does not have the 'ExtPos' feature
 [Line 1267 Sent deped-lrmds_11820_0077 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Dahil * sa'
-Warnings: 9
-*** PASSED ***
-Validity: 1
+...suppressing further errors regarding Warning
+[Line 1395 Sent deped-lrmds_11820_0085 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ' word 'malapit'
+...suppressing further errors regarding Syntax
+Syntax errors: 11
+Warnings: 15
+*** FAILED *** with 11 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.0134022091915704) = 0.00343646389527445
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.207012755118625) * (availability=1) * (validity=1) = 0.207012755118625
-STARS = 1
-UD_Tagalog-Ugnayan	0.207012755118625	1
+(TOTAL score=0.206509989909977) * (availability=1) * (validity=0.01) = 0.00206509989909977
+STARS = 0
+UD_Tagalog-Ugnayan	0.00206509989909977	0
