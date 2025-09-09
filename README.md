@@ -30,6 +30,7 @@ Annotations were created by Angelina Aquino under the guidance of Dr. Franz de L
 Data available since: UD v2.6
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction nonfiction
 Lemmas: manual native
 UPOS: manual native
