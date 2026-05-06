@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Tagalog-Ugnayan:
-commit 33f63e6df5efff24edebd1c0ec0c644a73cfca49
-Merge: 5186042 10ffaf8
+commit 6e32a393c1ade0453f52748f44b3f75ec05bfe93
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:55:35 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tl_ugnayan'
 Language code (from CoNLL-U file name) = 'tl'
@@ -25,31 +25,31 @@ Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tl --max-err=10 UD_Tagalog-Ugnayan/tl_ugnayan-ud-test.conllu
-[Line 19 Sent deped-lrmds_11820_0001]: [L3 Syntax too-many-objects] Multiple direct objects [15, 17] ('ko', 'Tatay') under the predicate 'tanong'.
-[Line 89 Sent deped-lrmds_11820_0005]: [L3 Warning fixed-without-extpos] Fixed expression 'para sa' does not have the 'ExtPos' feature
-[Line 153 Sent deped-lrmds_11820_0009]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'sumasakay') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 181 Sent deped-lrmds_11820_0011]: [L3 Syntax leaf-det] 'det' not expected to have children (6:marami:det --> 7:-ng:mark)
-[Line 348 Sent deped-lrmds_11820_0021]: [L3 Warning fixed-without-extpos] Fixed expression 'mula sa' does not have the 'ExtPos' feature
-[Line 465 Sent deped-lrmds_11820_0027]: [L3 Syntax leaf-det] 'det' not expected to have children (3:ilan:det --> 4:-ng:mark)
-[Line 604 Sent deped-lrmds_11820_0036]: [L3 Warning fixed-without-extpos] Fixed expression 'na lang' does not have the 'ExtPos' feature
-[Line 689 Sent deped-lrmds_11820_0042]: [L3 Syntax leaf-det] 'det' not expected to have children (2:Marami:det --> 3:-ng:mark)
-[Line 734 Sent deped-lrmds_11820_0045]: [L3 Syntax leaf-det] 'det' not expected to have children (9:marami:det --> 10:-ng:mark)
-[Line 774 Sent deped-lrmds_11820_0048]: [L3 Warning fixed-without-extpos] Fixed expression 'dahil sa' does not have the 'ExtPos' feature
-[Line 953 Sent deped-lrmds_11820_0059]: [L3 Warning fixed-without-extpos] Fixed expression 'dahil sa' does not have the 'ExtPos' feature
-[Line 964 Sent deped-lrmds_11820_0059]: [L3 Syntax leaf-det] 'det' not expected to have children (14:ilan:det --> 15:-ng:mark)
-[Line 1007 Sent deped-lrmds_11820_0062]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Marami:det --> 2:-ng:mark)
-[Line 1029 Sent deped-lrmds_11820_0063]: [L3 Warning fixed-without-extpos] Fixed expression 'patungo sa' does not have the 'ExtPos' feature
-[Line 1055 Sent deped-lrmds_11820_0065]: [L3 Warning fixed-without-extpos] Fixed expression 'Bukod sa' does not have the 'ExtPos' feature
-[Line 1166 Sent deped-lrmds_11820_0071]: [L3 Syntax leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
-[Line 1206 Sent deped-lrmds_11820_0073]: [L3 Syntax leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
-[Line 1209 Sent deped-lrmds_11820_0073]: [L3 Warning fixed-without-extpos] Fixed expression 'tulad ng' does not have the 'ExtPos' feature
-[Line 1209 Sent deped-lrmds_11820_0073]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ' ('tulad')
-[Line 1267 Sent deped-lrmds_11820_0077]: [L3 Warning fixed-without-extpos] Fixed expression 'Dahil sa' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-...suppressing further errors regarding Syntax
-Syntax errors: 12
-Warnings: 16
-*** FAILED *** with 12 errors
+[Line 19 Sent deped-lrmds_11820_0001]: [L3 SYNTAX too-many-objects] Multiple direct objects [15, 17] ('ko', 'Tatay') under the predicate 'tanong'.
+[Line 89 Sent deped-lrmds_11820_0005]: [L3 WARNING fixed-without-extpos] Fixed expression 'para sa' does not have the 'ExtPos' feature
+[Line 153 Sent deped-lrmds_11820_0009]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'sumasakay') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 181 Sent deped-lrmds_11820_0011]: [L3 SYNTAX leaf-det] 'det' not expected to have children (6:marami:det --> 7:-ng:mark)
+[Line 348 Sent deped-lrmds_11820_0021]: [L3 WARNING fixed-without-extpos] Fixed expression 'mula sa' does not have the 'ExtPos' feature
+[Line 465 Sent deped-lrmds_11820_0027]: [L3 SYNTAX leaf-det] 'det' not expected to have children (3:ilan:det --> 4:-ng:mark)
+[Line 604 Sent deped-lrmds_11820_0036]: [L3 WARNING fixed-without-extpos] Fixed expression 'na lang' does not have the 'ExtPos' feature
+[Line 689 Sent deped-lrmds_11820_0042]: [L3 SYNTAX leaf-det] 'det' not expected to have children (2:Marami:det --> 3:-ng:mark)
+[Line 734 Sent deped-lrmds_11820_0045]: [L3 SYNTAX leaf-det] 'det' not expected to have children (9:marami:det --> 10:-ng:mark)
+[Line 774 Sent deped-lrmds_11820_0048]: [L3 WARNING fixed-without-extpos] Fixed expression 'dahil sa' does not have the 'ExtPos' feature
+[Line 953 Sent deped-lrmds_11820_0059]: [L3 WARNING fixed-without-extpos] Fixed expression 'dahil sa' does not have the 'ExtPos' feature
+[Line 964 Sent deped-lrmds_11820_0059]: [L3 SYNTAX leaf-det] 'det' not expected to have children (14:ilan:det --> 15:-ng:mark)
+[Line 1007 Sent deped-lrmds_11820_0062]: [L3 SYNTAX leaf-det] 'det' not expected to have children (1:Marami:det --> 2:-ng:mark)
+[Line 1029 Sent deped-lrmds_11820_0063]: [L3 WARNING fixed-without-extpos] Fixed expression 'patungo sa' does not have the 'ExtPos' feature
+[Line 1055 Sent deped-lrmds_11820_0065]: [L3 WARNING fixed-without-extpos] Fixed expression 'Bukod sa' does not have the 'ExtPos' feature
+[Line 1166 Sent deped-lrmds_11820_0071]: [L3 SYNTAX leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
+[Line 1206 Sent deped-lrmds_11820_0073]: [L3 SYNTAX leaf-det] 'det' not expected to have children (7:ilan:det --> 8:-ng:mark)
+[Line 1209 Sent deped-lrmds_11820_0073]: [L3 WARNING fixed-without-extpos] Fixed expression 'tulad ng' does not have the 'ExtPos' feature
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 1267 Sent deped-lrmds_11820_0077]: [L3 WARNING fixed-without-extpos] Fixed expression 'Dahil sa' does not have the 'ExtPos' feature
+[Line 1267 Sent deped-lrmds_11820_0077]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 3] 'Dahil * sa'
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 15
+SYNTAX errors: 13
+*** FAILED *** with 13 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
