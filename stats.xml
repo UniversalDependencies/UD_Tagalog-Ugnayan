@@ -49,11 +49,11 @@
     <dep name="fixed">14</dep>
     <dep name="flat">6</dep>
     <dep name="mark">134</dep>
-    <dep name="nmod">91</dep>
+    <dep name="nmod">92</dep>
     <dep name="nsubj">91</dep>
     <dep name="nummod">12</dep>
     <dep name="obj">55</dep>
-    <dep name="obl">47</dep>
+    <dep name="obl">46</dep>
     <dep name="parataxis">11</dep>
     <dep name="punct">142</dep>
     <dep name="root">94</dep>
